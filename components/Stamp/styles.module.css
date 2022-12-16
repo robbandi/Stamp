@@ -1,0 +1,119 @@
+.link span {
+    /* display: flex; */
+    /* float: left; */
+    padding: 1rem 1rem;
+    /* -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px); */
+    /* background-color: var(--nav);  */
+    border-radius: 1.05rem;
+    font-size: 0.875rem;
+    color: var(--title);
+    /* font-weight: 600; */
+    /* position: fixed; */
+    text-align: center;
+    /* top: 20; */
+    /* margin-top: 0.5rem; */
+    /* padding-right: 1rem; */
+}
+
+.input {
+    /* display: flex; */
+    /* float: left; */
+    border: none;
+    padding: 1rem 1rem;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    background-color: #f0edff17; 
+    border-radius: 1.05rem;
+    font-size: 0.875rem;
+    color: var(--title);
+    /* font-weight: 600; */
+    /* position: fixed; */
+    text-align: center;
+    /* top: 20; */
+    /* margin-top: 0.5rem; */
+    /* padding-right: 1rem; */
+}
+
+.input:hover {
+    background-color: #f0edff1f; 
+}
+
+.gen:hover {
+    background-color: #f0edff1f; 
+}
+
+.download {
+    position: absolute;
+    font-size: 3rem;
+}
+
+.code {
+    /* border-radius: 1rem; */
+    display: flex;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    /* padding: 0rem 0rem; */
+    /* margin-top: 1rem; */
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    /* background: var(--nav); */
+    /* border: 5px solid var(--nav); */
+}
+
+.error {
+    padding: 0.80rem;
+}
+
+.gen {
+        display: flex;
+    /* float: left; */
+    padding: 1rem 1rem;
+    /* margin-left: 1rem; */
+    /* -webkit-backdrop-filter: blur(16px); */
+    /* backdrop-filter: blur(16px); */
+    background-color: #f0edff17; 
+    border-radius: 1.05rem;
+    font-size: 0.875rem;
+    color: var(--title);
+    /* font-weight: 600; */
+    border: none;
+    /* position: fixed; */
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2.65rem;
+    z-index: 999;
+    /* top: 20; */
+    /* margin-top: 0.5rem; */
+    /* padding-right: 1rem; */
+}
+
+/* Add the shake animation */
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  .shake {
+    /* Add the shake animation to the button */
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
