@@ -48,7 +48,7 @@ const Stamp = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = barcodeUrl;
-    link.download = 'barcode.png';
+    link.download = 'stamp.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
