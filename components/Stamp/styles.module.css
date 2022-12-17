@@ -25,7 +25,7 @@
   } 
 
   @media (max-width: 768px) {
-    .wrapper, .error,.code,.gen,.input {
+    .wrapper {
       height: 100%;
       width: 200px;
       /* padding: 4rem 4rem; */
