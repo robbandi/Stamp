@@ -1,0 +1,8 @@
+.download-button {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  img:hover + .download-button {
+    opacity: 1;
+  }

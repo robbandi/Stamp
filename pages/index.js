@@ -39,6 +39,8 @@ export default function Home() {
       <Stamp/>
       </main>
 
+
+      <div className={styles.footerWrapper}>
       <footer className={styles.footer}>
         <p><span><Link href='/'>Stamp</Link></span> by <a href="https://www.robinn.io/"
         target="_blank"
@@ -50,6 +52,7 @@ export default function Home() {
         rel="noopener noreferrer"
         >View source on GitHub</a>
       </footer> 
+      </div>
     </div>
   )
 }

@@ -424,6 +424,11 @@
   dependencies:
     "fill-range" "^7.0.1"
 
+"bwip-js@^3.2.2":
+  "integrity" "sha512-70aY2FSRVd1u6q8iXY+HDQDm6598lQt/toSNLrKeQhbmzw75y40Hmg85MTDtVv1NElbRPNtsX9aPuOQVsFuOzA=="
+  "resolved" "https://registry.npmjs.org/bwip-js/-/bwip-js-3.2.2.tgz"
+  "version" "3.2.2"
+
 "call-bind@^1.0.0", "call-bind@^1.0.2":
   "integrity" "sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA=="
   "resolved" "https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz"
