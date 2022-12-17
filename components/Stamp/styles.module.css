@@ -25,6 +25,14 @@
   } 
 
   @media (max-width: 768px) {
+    .wrapper {
+      height: 100%;
+      width: 100%;
+      /* padding: 4rem 4rem; */
+    }
+    } 
+
+  @media (max-width: 768px) {
     .error {
         margin: 0 auto;
         /* display: flex; */
