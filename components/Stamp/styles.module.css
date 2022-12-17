@@ -25,10 +25,10 @@
   } 
 
   @media (max-width: 768px) {
-    .wrapper {
+    .wrapper, .error,.code,.gen,.input {
       height: 100%;
       width: 100%;
-      /* padding: 4rem 4rem; */
+      padding: 4rem 4rem;
     }
     } 
 
